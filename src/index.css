@@ -83,3 +83,18 @@
   font-size: 50px;
 }
 
+@media screen and (max-width:800px) {
+  .section{
+    padding: 0.5rem;
+  }
+  .section_input>input{
+    padding: 0.2rem;
+    font-size: 20px;
+  }
+  .section_input>button{
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 900;
+  }
+}
+
