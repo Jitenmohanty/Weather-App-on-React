@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import hotBg from './assets/Hot2.jpg'
-import coldBg from './assets/Cold2.jpg'
+import coldBg from './assets/Cold.jpg'
 import './App.css'
 import Description from './components/Description'
 import { getDataFromWeatherApi } from './Services/WeatherService'
@@ -16,6 +16,12 @@ function App() {
    const fetchWeatherData = async()=>{
     const data = await getDataFromWeatherApi(inputs,units)
     setWeather(data)
+
+    //Dyanamic background image.
+    const threshold = units ==="metric"?20:60;
+
+    if(data.temp <= threshold) setBg(coldBg)
+    else setBg(hotBg)
    }
    fetchWeatherData();
   },[units,inputs])
@@ -31,7 +37,7 @@ function App() {
   }
 
   return (
-    <div className='app' style={{backgroundImage:`url({weather.temp.toFixed() >= 20?hotBg:coldBg})`}}>
+    <div className='app' style={{backgroundImage:`url(${bg})`}}>
       <div className="navbar">
         {
           weather && <div className="container">

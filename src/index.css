@@ -83,7 +83,14 @@
   font-size: 50px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:970px) {
+  .section{
+    padding: 0.7rem;
+  }
+}
+
+
+@media screen and (max-width:700px) {
   .section{
     padding: 0.5rem;
   }
@@ -95,6 +102,14 @@
     padding: 5px 10px;
     font-size: 15px;
     font-weight: 900;
+  }
+  .tempreture>h1{
+    font-size: 35px;
+  }
+  .icon>h3{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: capitalize;
   }
 }
 

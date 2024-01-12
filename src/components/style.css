@@ -28,4 +28,7 @@
         .section_descriptions{
             grid-template-columns: 1fr 1fr;
         }
+        .card>h2{
+            font-size: larger;
+        }
     } 
