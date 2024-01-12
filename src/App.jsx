@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import hotBg from './assets/Hot.jpg'
+import hotBg from './assets/Hot2.jpg'
 import './App.css'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <div className="container">
           <div className="section section_input">
                 <input type="text" placeholder='Enter city name' name='city'/>
-                <button>F</button>
+                <button>F°</button>
           </div>
           <div className="section section_weatherdata">
               <div className="icons">
@@ -21,7 +21,7 @@ function App() {
               {/* {Chart representaition} */}
               {/* {Description Components} */}
               <div className="tempreture">
-                <h1>34 °C</h1>
+                <h1>34°C</h1>
               </div>
           </div>
         </div>
