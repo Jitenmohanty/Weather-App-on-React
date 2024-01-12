@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import hotBg from './assets/Hot2.jpg'
-import coldBg from './assets/Cold.jpg'
+import coldBg from './assets/Cold2.jpg'
 import './App.css'
 import Description from './components/Description'
 import { getDataFromWeatherApi } from './Services/WeatherService'
