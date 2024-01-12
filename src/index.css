@@ -22,7 +22,7 @@
   background-color: var(--background-overlay);
 }
 .container{
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   height: 100%;
 
@@ -78,5 +78,8 @@
   font-size: 20px;
   font-weight: 200;
   text-transform: capitalize;
+}
+.tempreture>h1{
+  font-size: 50px;
 }
 
