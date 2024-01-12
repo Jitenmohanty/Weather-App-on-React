@@ -1,9 +1,17 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import hotBg from './assets/Hot2.jpg'
 import './App.css'
 import Description from './components/Description'
+import { getDataFromWeatherApi } from './Services/WeatherService'
 
 function App() {
+
+  useEffect(()=>{
+   const fetchWeatherData = async()=>{
+    const data = await getDataFromWeatherApi("Delhi")
+   }
+   fetchWeatherData();
+  },[])
 
   return (
     <div className='app' style={{backgroundImage:`url(${hotBg})`}}>
