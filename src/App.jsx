@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import hotBg from './assets/Hot2.jpg'
+import coldBg from './assets/Cold2.jpg'
 import './App.css'
 import Description from './components/Description'
 import { getDataFromWeatherApi } from './Services/WeatherService'
@@ -7,27 +8,35 @@ import { getDataFromWeatherApi } from './Services/WeatherService'
 function App() {
 
   const [weather,setWeather] = useState(null);
-  const [units,setUnits] = useState("imperal");
+  const [units,setUnits] = useState("metric");
+  const [inputs,setInputs] = useState("Delhi")
+  const [bg,setBg] = useState(hotBg)
 
   useEffect(()=>{
    const fetchWeatherData = async()=>{
-    const data = await getDataFromWeatherApi("Delhi",units)
+    const data = await getDataFromWeatherApi(inputs,units)
     setWeather(data)
    }
    fetchWeatherData();
-  },[units])
+  },[units,inputs])
 
   const handleUnits = ()=>{
-    setUnits(units === "metric"?"imperal":"metric")
+    setUnits(units === "metric"?"imperial":"metric")
+  }
+  const handleInputs = (e)=>{
+    if(e.keyCode === 13){
+      setInputs(e.currentTarget.value)
+      e.currentTarget.blur();
+    }
   }
 
   return (
-    <div className='app' style={{backgroundImage:`url(${hotBg})`}}>
+    <div className='app' style={{backgroundImage:`url({weather.temp.toFixed() >= 20?hotBg:coldBg})`}}>
       <div className="navbar">
         {
           weather && <div className="container">
           <div className="section section_input">
-                <input type="text" placeholder='Enter city name' name='city'/>
+                <input type="text" onKeyDown={handleInputs} placeholder='Enter city name' name='city'/>
                 <button onClick={handleUnits}>°{units === "metric"?"C":"F"}</button>
           </div>
           <div className="section section_weatherdata">

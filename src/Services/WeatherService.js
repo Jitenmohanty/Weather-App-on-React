@@ -19,7 +19,7 @@ const getDataFromWeatherApi = async (citys, units = "metric") => {
   const {speed} = wind;
 
   const { description, icon } = weather[0];
-
+    // const icons = icon ==="01n"?"":""
   return {
     name,
     country,
