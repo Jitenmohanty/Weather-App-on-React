@@ -15,6 +15,9 @@ function App() {
   useEffect(()=>{
    const fetchWeatherData = async()=>{
     const data = await getDataFromWeatherApi(inputs,units)
+    if(!data){
+      console.log("Error")
+    }
     setWeather(data)
 
     //Dyanamic background image.
