@@ -69,7 +69,7 @@ function App() {
                 name="city"
               />
               <button onClick={handleUnits}>
-                °{units === "metric" ? "C" : "F"}
+                °{units === "metric" ? "F" : "C"}
               </button>
             </div>
             <div className="section section_weatherdata">
