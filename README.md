@@ -1,69 +1,67 @@
 
-
+[LIVE-->LINK](https://weather-app-on-react.vercel.app/)
 # Project Title
 
 A concise description of your project.
 
 ## Table of Contents
 
-- [Project Title](#project-title)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Screenshots](#screenshots)
-  - [Contributing](#contributing)
+- [Project Title](# Weather App on react)
+  - [Table of Contents](# You can check weather of any city just input the city name.)
+  - [Introduction](#)
+  - [Features](# You see all things like tempreture,pressure,wind speed, max temp,min temp like stuff)
+  - [Getting Started](# You can simple fork the project then set the api key from openWeather api.)
+    - [Prerequisites](#You have to know about git version control or reactjs.)
+    - [Installation](#git clone https://github.com/your-username/react-weather-app.git
+  cd react-weather-app
+  npm install
+  Then create a .env file outside the src folder,
+  Then create a api key at openWeather api,then paste on .env file on the name of VITE_API_KEY.
+)
+  - [Usage](#Show any city climex.)
+  - [Screenshots](#Noting added yet)
+  - [Contributing](#Owner)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
-Provide an introduction to your project. Explain its purpose, main features, and any other relevant information. You can also mention the problem it solves or the audience it targets.
+Welcome to Weather App – a versatile weather application designed to keep you informed about the latest weather conditions effortlessly. Whether you're planning a trip, organizing outdoor activities, or just curious about the weather, our app provides accurate and up-to-date information at your fingertips.
+[OpenWeather api page.](https://openweathermap.org/api)
 
 ## Features
 
-List the key features of your project. Highlight what makes it unique or useful.
+1. Real-Time Weather Updates
+Receive real-time weather updates for your current location or any city worldwide. The temperature, humidity, wind speed, and other crucial details are presented in an easy-to-understand format.
 
-## Getting Started
+2. Location-Based Forecast
+Access accurate weather forecasts tailored to your location. Simply enter the city name, and [Your Project Name] will provide detailed information about the upcoming weather.
 
-Describe how someone can get started with your project. Include instructions on setting up the development environment, installing dependencies, and running the project.
+3. Extended Forecast
+Plan your activities in advance with the extended forecast feature. Get a comprehensive overview of the weather conditions for the upcoming days.
 
 ### Prerequisites
-
-List any software, tools, or dependencies that users need to have installed before they can use your project.
-
+ You have to know about how to handle api, also you have to know about the basic javascript or react.
 ### Installation
+To start using [Weather App], follow these simple steps:
 
-Provide step-by-step instructions on how to install your project. Include code snippets or commands to make it easy for users to follow.
+Clone the Repository:
 
-## Usage
+(git clone https://github.com/Jitenmohanty/Weather-App-on-React)
+Navigate to the Project Directory:
 
-Explain how users can use your project. Provide examples and code snippets if applicable.
+cd your-project
+Install Dependencies:
 
-## Screenshots
+npm install
+Start the Application:
 
-Include screenshots or gifs demonstrating the project's functionality. You can add them to a folder named `screenshots` in your project directory.
+npm start
+The app will be accessible at http://localhost:5176 in your web browser.
 
 ## Contributing
 
-If you welcome contributions to your project, provide guidelines on how others can contribute. Include information on the process for submitting pull requests and any coding standards you follow.
-
-## License
-
-State the license under which your project is distributed. If you're unsure, [choose a license](https://choosealicense.com/) that suits your project.
-
-## Acknowledgments
-
-If your project uses third-party libraries, APIs, or tools, acknowledge and credit them here.
-
-Feel free to customize the README file based on your project's specifics.
-
-
-
-
+I was contributting this project own, with the help of openWeather api and search some google.
 
 
 # React + Vite
