@@ -1,0 +1,124 @@
+
+
+[
+  {
+    "weatherCode": "0",
+    "description": "Unknown",
+    "image": "images/0.png"
+  },
+  {
+    "weatherCode": "1000",
+    "description": "Clear, Sunny",
+    "image": "images/1.png"
+  },
+  {
+    "weatherCode": "1100",
+    "description": "Mostly Clear",
+    "image": "images/1.png"
+  },
+  {
+    "weatherCode": "1101",
+    "description": "Partly Cloudy",
+    "image": "images/2.png"
+  },
+  {
+    "weatherCode": "1102",
+    "description": "Mostly Cloudy",
+    "image": "images/3.png"
+  },
+  {
+    "weatherCode": "1001",
+    "description": "Cloudy",
+    "image": "images/4.png"
+  },
+  {
+    "weatherCode": "2000",
+    "description": "Fog",
+    "image": "images/5.png"
+  },
+  {
+    "weatherCode": "2100",
+    "description": "Light Fog",
+    "image": "images/6.png"
+  },
+  {
+    "weatherCode": "4000",
+    "description": "Drizzle",
+    "image": "images/7.png"
+  },
+  {
+    "weatherCode": "4001",
+    "description": "Rain",
+    "image": "images/8.png"
+  },
+  {
+    "weatherCode": "4200",
+    "description": "Light Rain",
+    "image": "images/9.png"
+  },
+  {
+    "weatherCode": "4201",
+    "description": "Heavy Rain",
+    "image": "images/10.png"
+  },
+  {
+    "weatherCode": "5000",
+    "description": "Snow",
+    "image": "images/11.png"
+  },
+  {
+    "weatherCode": "5001",
+    "description": "Flurries",
+    "image": "images/12.png"
+  },
+  {
+    "weatherCode": "5100",
+    "description": "Light Snow",
+    "image": "images/13.png"
+  },
+  {
+    "weatherCode": "5101",
+    "description": "Heavy Snow",
+    "image": "images/14.png"
+  },
+  {
+    "weatherCode": "6000",
+    "description": "Freezing Drizzle",
+    "image": "images/15.png"
+  },
+  {
+    "weatherCode": "6001",
+    "description": "Freezing Rain",
+    "image": "images/16.png"
+  },
+  {
+    "weatherCode": "6200",
+    "description": "Light Freezing Rain",
+    "image": "images/17.png"
+  },
+  {
+    "weatherCode": "6201",
+    "description": "Heavy Freezing Rain",
+    "image": "images/18.png"
+  },
+  {
+    "weatherCode": "7000",
+    "description": "Ice Pellets",
+    "image": "images/19.png"
+  },
+  {
+    "weatherCode": "7101",
+    "description": "Heavy Ice Pellets",
+    "image": "images/20.png"
+  },
+  {
+    "weatherCode": "7102",
+    "description": "Light Ice Pellets",
+    "image": "images/21.png"
+  },
+  {
+    "weatherCode": "8000",
+    "description": "Thunderstorm",
+    "image": "images/22.png"
+  }
+]

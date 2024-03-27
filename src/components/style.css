@@ -24,6 +24,15 @@
     .description_card-icon>small {
     text-transform: capitalize;
     }
+    .location{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 900;
+        cursor: pointer;
+    }
+
     @media screen and (max-width: 1024px) {
         .section_descriptions{
             grid-template-columns: 1fr 1fr;

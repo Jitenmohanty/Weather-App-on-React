@@ -44,7 +44,11 @@
   justify-content: space-between;
   background-color: var(--section-overlay);
 }
-.section_input>input{
+.inner{
+  display: flex;
+  gap: 1vw;
+}
+.inner>input{
   border: 1px solid white;
   border-radius: 0.4rem;
   background-color: transparent;
@@ -94,10 +98,11 @@
   .section{
     padding: 0.5rem;
   }
-  .section_input>input{
+  .inner>input{
     padding: 0.2rem;
     font-size: 20px;
     margin-right: 3px;
+    width: 80%;
   }
   .section_input>button{
     padding: 5px 10px;
